@@ -1,0 +1,183 @@
+body{
+	overflow-x: hidden;
+}
+.bgnav{
+	background-color: #FFFFFF;
+}
+.brandst{
+	font-family: SF Compact Display,Black;
+	font-size:35px;
+}
+.imgstg{
+	width: 50px; 
+	height: 50px; 
+	border-radius: 50%;
+}
+.name{
+	
+	font-size: 16px;
+	color: #707070;
+	padding-top: 16px;
+    padding-left: 5px;
+}
+.down{
+	padding-top: 20px;
+    padding-left: 5px;
+    color: #6AA5E3;
+}
+.env{
+	color: #C7C7C7;
+	position: absolute;
+	padding-top: 20px;
+	padding-left: 25px;
+}
+	
+
+.bell{
+   color: #C7C7C7;
+   position: absolute;
+   padding-left: 50px;
+   padding-top: 20px;
+   position: absolute;
+
+}
+.online{
+	position: absolute;
+    padding-top: 37px;
+    color: #39DD84;
+    font-size: 14px;
+}
+.online2{
+	position: absolute;
+    padding-left: 40px;
+    padding-top: 19px;
+    color: red;
+    font-size: 5px;
+}
+.online3{
+	position: absolute;
+    padding-top: 19px;
+    padding-left:60px;
+    color: red;
+    font-size: 5px;
+}
+
+.menuico{
+	color: #C7C7C7;
+	position: absolute;
+	padding-left: 75px;
+	padding-top: 20px;
+}
+.bgclr{
+	background-color: #F5F5F5;
+}
+.btnclr{
+	color: #212529;
+    background-color: #FFFFFF;
+    border-color: #FFFFFF;
+}
+.btnclr2{
+	background-image: linear-gradient(180deg,#6FE3FF,#2FC7F5);
+	border-radius: 5px;
+}
+.icodash{
+	color: #ffffff;
+	padding: 5px;
+    border-radius: 8px;
+    background-image:linear-gradient(180deg,#6FE3FF,#2FC7F5);
+    font-size: 30px;
+}
+.box1{
+	width: 100%;
+	height: 262px;
+	background-image: linear-gradient(91deg,#C694F9,#AB64F4);
+	border-radius: 13px;
+	margin-top:52px;
+}
+.box2{
+	width: 100%;
+	height: 262px;
+	background-image: linear-gradient(91deg,#6AA5E3,#6866E9);
+	border-radius: 13px;
+	margin-top:52px;
+}
+.box3{
+	width: 100%;
+	height: 262px;
+	background-image: linear-gradient(91deg,#FEB683,#FF8993);
+	border-radius: 13px;
+	margin-top:52px;
+}
+.titlest{
+	color: #FFFFFF;
+	font-size: 18px;
+	font-weight: 600;
+	font-family: Montserrat;
+	margin-top: 8%;
+}
+.circle{
+	width: 150px;
+    height: 150px;
+    background-color: rgba(255,255,255,0.2);
+    border-radius: 50%;
+    position: absolute;
+    bottom: 85px;
+    left: 70%;
+}
+.cir{
+	width: 160px;
+    height: 160px;
+    background-color: rgba(255,255,255,0.2);
+    border-radius: 50%;
+    position: absolute;
+    top: 55%;
+    left: 62%;
+}
+
+.table td{
+	font-family: Montserrat;
+	font-size: 15px;
+	font-weight: 300;
+	color: #707070;
+	border-top: 1px solid #EFEFEF;
+	padding: 18px 0px;
+}
+.tbtn{
+	width: 91px;
+	height: 31px;
+	font-family: Montserrat;
+	font-size: 13px;
+	font-weight: 600;
+	color: #FFFFFF;
+	border: 0;
+}
+.sidepanel  {
+  width: 300px;
+  position: fixed;
+  z-index: 1000;
+  height: 350px;
+  top: 0;
+  left: 0;
+ visibility: collapse;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  background-color: white;
+}
+
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+ 
+  background-color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
